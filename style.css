@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppings', sans-serif;
+}
+
+body {
+    background: #4285f4;
+    color: white;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+div.forum{
+    max-width: 500px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 20px 25px 15px;
+    box-shadow: 0 15px 40px rgb(0,0,0,0.12);
+}
+
+input[type="number"]{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    padding: 12px 10px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    min-height: 25px;
+    padding-top: 50px;
+    border: 1px solid #b3b2b2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+::placeholder {
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    padding-top: 3px;
+}
+
+#total {
+    text-align: center;
+    padding-top: 3px;
+}
+
+header p{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #474747;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 27px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+#Calculator {
+    width: 33%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background: #4285f4;
+}
+
+output {
+    font-family: "Trebuchet Ms", Arial, Helvetica, sans-serif;
+    float: inline-end;
+    width: 100px;
+}
+
+#output td, #output th{
+    border: 1px solid #b3b2b2;
+    padding: 8px;
+    color: #474747;
+    width: 220px;
+}
+#output tr:hover{
+    background-color: #ddd;
+}
+#output th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffa500;
+    color: white;
+}
+div.wrppaer {
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 7px;
+}

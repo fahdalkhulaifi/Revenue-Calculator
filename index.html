@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+
+            <meta http-equiv="X-UA-compatible" content ="IE=edge0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title> Revenue Calculator</title>
+        </head>
+        <body>
+            <div class="main">
+                <div class="forum">
+                    <header>
+                        <h1> Revenue Calculator</h1>
+                        <p>Input the price, and the revenue percent to find the revenue, and the total sale price</p>
+                    </header>
+                    <input type="number" id="price" placeholder="Input The Price Herre" required>
+                    <input type="number" Id="RePercent" placeholder=" % Input The Revenue In Percent" required>
+                    <div style="text-align: center; padding-top: 3px">
+                    <button Id="Calculator" Onclick="Calculate()">Calculate</button>
+                    </div>
+                    <div class="wrapper">
+                        <table id="output">
+                            <tr>
+                                <th> Process </th>
+                                <th> Result </th>
+                            </tr>
+                            <tr>
+                                <td> Revenue </td>
+                                <td type="number" id="result"></td>
+                            </tr>
+                            <tr>
+                                <td>Total</td>
+                                <td type="number" id ="total"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>
